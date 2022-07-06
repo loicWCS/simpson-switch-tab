@@ -23,6 +23,23 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+ /* couleur des deux div */
+.left{
+  background-color: red;
+  height: auto;
+}
+.right{
+  background-color: green;
+  height: auto;
+}
+.quotesLeft,.quotesRight {
+  height: 20px;
+    width: 25%;
+}
 
 .App-link {
   color: #61dafb;
